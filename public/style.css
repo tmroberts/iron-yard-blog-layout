@@ -46,5 +46,163 @@ table {
   border-spacing: 0; }
 
 /* End of CSS reset */
-p {
-  color: red; }
+.outer-container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto; }
+
+header img {
+  height: 300px;
+  width: 100%; }
+
+/*
+circlular-logo is placed at the top of aanother container called 'left-side'.  Using
+a negative margin-top, it can be pushed halfway out of the box and on-top of the header
+image.
+*/
+.left-side {
+  margin-left: 15%;
+  width: 14%;
+  display: inline-block; }
+
+#circular-logo {
+  border: 6px solid #EEE;
+  border-radius: 100%;
+  width: 90px;
+  margin-top: -50px;
+  margin-bottom: 20px; }
+
+.left-heading {
+  font-size: .75em;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #666666; }
+
+.happenings {
+  color: #aaaaaa;
+  padding-bottom: 12px;
+  border-bottom: 1px solid;
+  line-height: 1.4em;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.search {
+  font-size: .6em;
+  font-family: sans-serif;
+  color: #aaaaaa;
+  margin-bottom: 10px; }
+
+.right-side {
+  font-family: sans-serif;
+  float: right;
+  margin-top: 70px;
+  margin-right: 22%;
+  width: 46%; }
+
+.right-side img {
+  width: 95%;
+  margin-bottom: 20px; }
+
+.right-side h1 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.4em;
+  color: #333333;
+  margin-bottom: 25px; }
+
+.right-side h4 {
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+  font-style: italic;
+  color: #666666;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.right-side p {
+  font-size: 17px;
+  font-family: 'PT Serif', serif;
+  color: #666666;
+  line-height: 1.2em;
+  margin-bottom: 20px; }
+
+.follow-box {
+  border: solid 1px #ededed;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  color: #666666;
+  display: inline-block;
+  margin-left: 65%;
+  position: fixed;
+  bottom: 1%;
+  right: 2%;
+  margin-bottom: 40px;
+  width: 20%; }
+
+.follow-top {
+  color: #666666;
+  width: 100%; }
+
+.follow-top p {
+  font-size: .8em;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: 5px;
+  float: left;
+  width: 65%; }
+
+.close-icon img {
+  float: right;
+  padding: 10px;
+  width: 5%; }
+
+.follow-bottom {
+  border-top: 1px solid #666666;
+  color: #666666;
+  display: inline-block;
+  line-height: .9em;
+  width: 100%; }
+
+#tiy-logo-bottom {
+  margin-bottom: 2px;
+  margin-top: 4px;
+  margin-left: 5px;
+  float: left;
+  width: 25px; }
+
+.bottom-middle {
+  color: #333333;
+  font-size: .75em;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-left: 15px;
+  margin-bottom: 2px;
+  margin-top: 4px;
+  float: left;
+  width: 47%; }
+
+.bottom-middle p {
+  color: #7c7c7c; }
+
+.bottom-middle span {
+  color: rgba(124, 124, 124, 0.5); }
+
+.bottom-right button {
+  background-color: rgba(47, 113, 165, 0.8);
+  border-radius: 3px;
+  color: white;
+  font-size: .6em;
+  font-family: sans-serif;
+  padding: 5px;
+  margin-left: 30px;
+  margin-bottom: 3px;
+  margin-right: 6px;
+  margin-top: 6px;
+  float: right;
+  width: 60px; }
+
+/*
+  End of CSS
+  */
